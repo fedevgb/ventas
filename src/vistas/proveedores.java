@@ -16,6 +16,7 @@ public class proveedores extends javax.swing.JFrame {
      */
     public proveedores() {
         initComponents();
+        //prueba de actualizacion
     }
 
     /**

@@ -49,6 +49,7 @@ public class proveedores extends javax.swing.JFrame {
         btnupdate = new javax.swing.JButton();
         btndelete = new javax.swing.JButton();
         btnprint = new javax.swing.JButton();
+        btnlist = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Módulo de Proveedores");
@@ -186,6 +187,8 @@ public class proveedores extends javax.swing.JFrame {
         btnprint.setIcon(new javax.swing.ImageIcon("D:\\iconos java\\printer.png")); // NOI18N
         btnprint.setText("Imprimir");
 
+        btnlist.setText("Listar");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -203,7 +206,9 @@ public class proveedores extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(btndelete)
                         .addGap(18, 18, 18)
-                        .addComponent(btnprint))
+                        .addComponent(btnprint)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnlist))
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(60, Short.MAX_VALUE))
@@ -217,7 +222,8 @@ public class proveedores extends javax.swing.JFrame {
                     .addComponent(btnsave)
                     .addComponent(btnupdate)
                     .addComponent(btndelete)
-                    .addComponent(btnprint))
+                    .addComponent(btnprint)
+                    .addComponent(btnlist))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -268,6 +274,7 @@ public class proveedores extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnNew;
     private javax.swing.JButton btndelete;
+    public javax.swing.JButton btnlist;
     private javax.swing.JButton btnprint;
     private javax.swing.JButton btnsave;
     private javax.swing.JButton btnsearch;
